@@ -59,4 +59,6 @@ const studentData = [
   }
 ]
 
-export students;
+export {
+  studentData
+}
