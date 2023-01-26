@@ -5,7 +5,7 @@ const ScoreInfo = ({score}) => {
       <p>Date: {score.date} Score: {score.score}</p>
     </div>
     </>
-   );
+  );
 }
 
 export default ScoreInfo;
