@@ -8,9 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [studentList, setStudentList] = useState(studentData)
   return (
+    <main>
+    <br />
     <div>
       <StudentList sList={studentList}/>
     </div>
+    <br />
+  </main>
   );
 }
 
